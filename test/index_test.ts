@@ -9,7 +9,7 @@ describe('mitt', () => {
 	it('should default export be a function', () => {
 		expect(mitt).to.be.a('function');
 	});
-
+	
 	it('should accept an optional event handler map', () => {
 		expect(() => mitt(new Map())).not.to.throw;
 		const map = new Map();
