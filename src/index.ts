@@ -50,7 +50,7 @@ export default function mitt<Events extends Record<EventType, unknown>>(
 		| Handler<Events[keyof Events]>
 		| WildcardHandler<Events>;
 	all = all || new Map();
-
+	console.log(111)
 	return {
 		/**
 		 * A Map of event names to registered handler functions.
