@@ -4,6 +4,7 @@ import { spy } from 'sinon';
 import sinonChai from 'sinon-chai';
 chai.use(sinonChai);
 
+
 describe('mitt', () => {
 	it('should default export be a function', () => {
 		expect(mitt).to.be.a('function');
